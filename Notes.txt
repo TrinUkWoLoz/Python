@@ -1,0 +1,28 @@
+#My Python Notes#
+
+Created by Guido van Rossum (Dutch programmer)
+
+Open source
+
+Then developed continuosly by community
+
+Additions Cython (C python) Rython (Reduced - subset of python for self development) & Jython (Java python)
+
+Interpreter language such as Java Perl & Python
+
+Compiler language C & Go (good for fast mathemeatical calculations)
+
+#Function, parenthares, quotations (intiate string), closing of both
+#All but the function make up the 'function invocation'
+#All but the function and the parenthares make up the 'argument'
+print("Hello this is christopher")
+
+#Within a string \n indicates a new output line
+#E.g:       print("Hello\nfriend.")
+Displays:   Hello
+            friend.
+
+
+
+
+
