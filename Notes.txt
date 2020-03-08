@@ -12,7 +12,7 @@ Interpreter language such as Java Perl & Python
 
 Compiler language C & Go (good for fast mathemeatical calculations)
 
-#Function, parenthares, quotations (intiate string), closing of both
+#Function(print), parenthares(()), quotations (intiate string), closing of both ("))
 #All but the function make up the 'function invocation'
 #All but the function and the parenthares make up the 'argument'
 print("Hello this is christopher")
@@ -21,6 +21,20 @@ print("Hello this is christopher")
 #E.g:       print("Hello\nfriend.")
 Displays:   Hello
             friend.
+#Seperate multiple arguments like so (They are printed individually with no commas displayed):
+print("The itsy bitsy spider" , "climbed up" , "the waterspout.")
+
+#Keyword argument - 'end' is keyword and requires =
+#Below code prints: My name is Python. Monty Python.
+print("My name is", "Python.", end=" ")
+print("Monty Python.")
+
+
+
+
+
+
+
 
 
 
