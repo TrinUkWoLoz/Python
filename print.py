@@ -2,9 +2,7 @@
 
 print("Hello this is wizard the badman")
 
-print("This is an additional line for testing")
-
-print("Hello")
+print("This is the start of my code play")
 
 print("The itsy bitsy spider", "climbed up", "the waterspout.")
 
