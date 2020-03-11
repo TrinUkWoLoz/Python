@@ -52,6 +52,24 @@ print("Monty Python.")
 #########################
 
 
+doc2pdf LJCH_CV.docx
+
+#COLOUR LIST#
+pink/red = operator
+light blue = function
+purple = integer/value
+
+##########################
+
+#OPERATORS#
+
+#Can simplify by adding op to left side of operator
+variable = variable op expression
+x = x * 2
+
+variable op= expression
+x *= 2
+
 
 
 
