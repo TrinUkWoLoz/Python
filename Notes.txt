@@ -166,6 +166,53 @@ myInput = ("Enter something: ") # Example input: hello
 print(myInput * 3) # Expected output: hellohellohello
 
 
+######
+OPERATORS
+######
+
+#MODULUS %
+#Divide and check remainder dp
+
+6%2
+
+#Divide left by right
+6/2 = 3
+evaluates to 0 as there is no remainder
+
+7%2
+
+7/2=3.5
+evaluates to 1 as there is 1dp remainder
+
+#Exponentiation **
+#Square
+
+6**2
+6*6= 36
+
+6**3
+6*6 = 36*6 = 216
+
+#Floor Division //
+#Rounds to the next smaller integer or float with .0 as decimal point
+
+5/2 = 2.5
+5//2 = 2
+
+5.0/2 = 2.5
+5.0//2 = 2.0
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
