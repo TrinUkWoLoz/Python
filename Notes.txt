@@ -184,6 +184,15 @@ evaluates to 0 as there is no remainder
 7/2=3.5
 evaluates to 1 as there is 1dp remainder
 
+11 % 4
+11 / 4 = 2
+2 * 4 = 8
+11 - 8 = 3
+
+4 % 3
+1
+
+
 #Exponentiation **
 #Square
 
