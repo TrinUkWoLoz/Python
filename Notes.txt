@@ -234,8 +234,97 @@ Priority	   Operator
 5	           <, <=, >, >=
 6	           ==, !=
 
+#Abreviation - using operators to print True/False result based on input and calc rule
 
+Using one of the comparison operators in Python,
+write a simple two-line program that takes the parameter n as input,
+which is an integer, and prints False if n is less than 100,
+and True if n is greater than or equal to 100
 
+n = int(input("Enter your number: "))
+print(n>=100)
+
+#if statement
+
+if true_or_not:
+    do_this_if_true
+
+This conditional statement consists of the following, strictly necessary, elements in this and this order only:
+
+the if keyword;
+one or more white spaces;
+an expression (a question or an answer) whose value will be interpreted solely in terms of True (when its value is non-zero) and False (when it is equal to zero);
+a colon followed by a newline;
+an indented instruction or set of instructions (at least one instruction is absolutely required);
+the indentation may be achieved in two ways - by inserting a particular number of spaces (the recommendation is to use four spaces of indentation),
+or by using the tab character; note: if there is more than one instruction in the indented part, the indentation should be the same in all lines;
+even though it may look the same if you use tabs mixed with spaces, it's important to make all indentations exactly the same -
+Python 3 does not allow mixing spaces and tabs for indentation
+
+#if basic structure
+
+if the_weather_is_good:
+    go_for_a_walk()
+have_lunch()
+
+#if sheep_counter variable greater than or equal to 120 then 3 following functions are carried out
+#feed_the_sheepdogs function carried out regardless
+
+if sheep_counter >= 120:
+    make_a_bed()
+    take_a_shower()
+    sleep_and_dream()
+feed_the_sheepdogs()
+
+#if else basic structure
+
+if true_or_false_condition:
+    perform_if_condition_true
+else:
+    perform_if_condition_false
+
+#another example
+if the_weather_is_good:
+    go_for_a_walk()
+    have_fun()
+else:
+    go_to_a_theater()
+    enjoy_the_movie()
+have_lunch()
+
+#nested if statement
+if the_weather_is_good:
+    if nice_restaurant_is_found:
+        have_lunch()
+    else:
+        eat_a_sandwich()
+else:
+    if tickets_are_available:
+        go_to_the_theater()
+    else:
+        go_shopping()
+
+#elif basic structure
+if the_weather_is_good
+    go_for_a_walk()
+elif tickets_are_available:
+    go_to_the_theater()
+elif table_is_available:
+    go_for_lunch()
+else:
+    play_chess_at_home()
+
+#Abreviation example for detect higher number example
+# read two numbers
+number1 = int(input("Enter the first number: "))
+number2 = int(input("Enter the second number: "))
+
+# choose the larger number
+if number1 > number2: larger_number = number1
+else: larger_number = number2
+
+# print the result
+print("The larger number is:", larger_number)
 
 
 
