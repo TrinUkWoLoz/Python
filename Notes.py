@@ -226,7 +226,7 @@ evaluates to 1 as there is 1dp remainder
 It is a binary operator with left-sided binding. It needs two arguments and checks if they are equal
 
 
-Priority	   Operator
+Priority	   Operator         (3 done first, 1 last)
 1	           +, -	            unary
 2	           **
 3	           *, /, //, %
