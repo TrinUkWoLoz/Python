@@ -343,7 +343,7 @@ elif plant == "spathiphyllum":
 else:
     print("Spathiphyllum, not ", plant)
 
-    
+
 
 
 
