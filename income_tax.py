@@ -38,3 +38,5 @@ print("The tax is:", tax, "thalers")
 
 
 
+
+
