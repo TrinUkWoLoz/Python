@@ -412,8 +412,24 @@ else:
 #two
 
 #While loop structure
+#while repeats the execution as long as the condition evaluates to True.
 while conditional_expression:
     instruction
+
+#Infinite loop
+while True:
+    print("I'm stuck inside a loop.")
+
+#Using a counter variable to exit loop
+counter = 5
+while counter:
+    print("Inside the loop.", counter)
+    counter -= 1
+print("Outside the loop.", counter)
+
+
+
+
 
 
 
