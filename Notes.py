@@ -488,6 +488,16 @@ else:
 #The continue statement is used to skip the current block and move ahead to the next iteration, without executing the statements inside the loop.
 #It can be used with both the while and for loops.
 
+#While, else basic structure
+i = 1
+while i < 10:
+    print(i)
+    i += 1
+else:
+    print("else:", i)
+
+
+
 
 
 
