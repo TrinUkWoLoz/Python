@@ -13,12 +13,11 @@ print(
 +================================+
 """)
 
-# Prompt the user to enter an integer number.
-input("Guess a number you muggle chimp:")
+input_num = int(input("Guess a number you muggle chimp: "))
 
-while secret_number != 777:
+while input_num != secret_number:
     print("Haha your stuck in my infinite loop Harry Potter (Dumbass)")
-    if secret_number == 777:
-        print("Well done, muggle! You are free now.")
+if input_num == secret_number:
+    print("Well done, muggle! You are free now.")
 
 
