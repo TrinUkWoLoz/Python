@@ -476,7 +476,17 @@ if counter:
 else:
     print("You haven't entered any number.")
 
+#Another loopy example
+secretword = "chupacabra"
+word = input("Guess secret word: ")
 
+while word != secretword:
+    word = input("Guess again: ")
+else:
+    print("You have sucessfully left the loop.")
+
+#The continue statement is used to skip the current block and move ahead to the next iteration, without executing the statements inside the loop.
+#It can be used with both the while and for loops.
 
 
 
