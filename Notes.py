@@ -427,6 +427,39 @@ while counter:
     counter -= 1
 print("Outside the loop.", counter)
 
+#for i loop basic structure
+for i in range(100):
+    # do_something()
+    pass
+
+# the for keyword opens the for loop; note - there's no condition after it; you don't have to think about conditions,
+# as they're checked internally, without any intervention;
+
+# any variable after the for keyword is the control variable of the loop; it counts the loop's turns, and does it automatically;
+
+# the in keyword introduces a syntax element describing the range of possible values being assigned to the control variable;
+
+# the range() function (this is a very special function) is responsible for generating all the desired values of the control variable;
+
+# in our example, the function will create (we can even say that it will feed the loop with) subsequent values from the
+# following set: 0, 1, 2 .. 97, 98, 99; note: in this case, the range() function starts its job from 0 and finishes
+# it one step (one integer number) before the value of its argument;
+
+# note the pass keyword inside the loop body - it does nothing at all; it's an empty instruction - we put it here because the for loop's
+# syntax demands at least one instruction inside the body (by the way - if, elif, else and while express the same thing)
+
+#For i loop with 2 arguments - 1st argument = starting # - 2nd argument range end #
+for i in range(2, 8):
+    print("The value of i is currently", i)
+
+#For i loop with 3 arguments - 1st argument = starting # - 2nd argument range end # - 3rd argument = increments (every 3 - 2,5)
+for i in range(2, 8, 3):
+    print("The value of i is currently", i)
+
+
+
+
+
 
 
 
