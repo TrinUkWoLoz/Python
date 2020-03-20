@@ -501,30 +501,77 @@ while i < 10:
 else:
     print("else:", i)
 
+#The range() function generates a sequence of numbers. It accepts integers and returns range objects.
+# The syntax of range() looks as follows: range(start, stop, step), where:
 
+#start is an optional parameter specifying the starting number of the sequence (0 by default)
+#stop is an optional parameter specifying the end of the sequence generated (it is not included),
+#and step is an optional parameter specifying the difference between the numbers in the sequence (1 by default.)
 
+#Range example print odd numbers to screen
+for i in range(0, 11):
+    if i % 2 != 0:
+        print(i)
 
+#While loop print odd numbers to screen
+x = 1
+while x < 11:
+    if x % 2 != 0:
+        print(x)
+    x += 1
 
+#Break for loop at certain character
+for ch in "john.smith@pythoninstitute.org":
+    if ch == "@":
+        break
+    print(ch, end="")
 
+#For loop that replaces each 0 with x
+for digit in "0165031806510":
+    if digit == "0":
+        print("x", end="")
+        continue
+    print(digit, end="")
 
+#Logical operators - conjunctions (and) and disjunctions (or)
 
+#And
+#is a binary operator with a priority that is lower than the one expressed by the comparison operators
+#It allows us to code complex conditions without the use of parentheses
+#The result provided by the and operator can be determined on the basis of the truth table.
+#   Argument A	Argument B	A and B
+#    False	    False	    False
+#    False	    True	    False
+#    True	    False	    False
+#    True	    True	    True
 
+#or
+#A disjunction operator is the word or. It's a binary operator with a lower priority than and (just like + compared to *). ' \ ''
+#Its truth table is as follows:
+#Argument A	Argument B	A or B
+#False	    False	    False
+#False	    True	    True
+#True	    False	    True
+#True	    True	    True
 
+#not
+#is another operator that can be applied for constructing conditions. ' \ '
+#It's a unary operator performing a logical negation. Its operation is simple: it turns truth into falsehood and falsehood into truth
+#This operator is written as the word not, and its priority is very high: the same as the unary + and -.
+#Truth table:
+# Argument      not Argument
+# False	            True
+# True	            False
 
+#Logical Expressions
+#You may be familiar with De Morgan's laws. They say that:
+#The negation of a conjunction is the disjunction of the negations.
+#The negation of a disjunction is the conjunction of the negations.
 
+#Let's write the same thing using Python:
 
+#not (p and q) == (not p) or (not q)
+#not (p or q) == (not p) and (not q)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#Note how the parentheses have been used to code the expressions - we put them there to improve readability.
+#We should add that none of these two-argument operators can be used in the abbreviated form known as op=. This exception is worth remembering.

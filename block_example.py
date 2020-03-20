@@ -4,13 +4,13 @@
 # Note: the height is measured by the number of fully completed layers - if the builders don't have a sufficient number of blocks and cannot complete the next layer, they finish their work immediately.
 
 
-blocks = int(input("Enter the number of blocks: "))
-height = 0
-while blocks > 0:
-    height += 1
-    blocks = blocks - (height +1)
-
-print("The height of the pyramid:", height)
+# blocks = int(input("Enter the number of blocks: "))
+# height = 0
+# while blocks > 0:
+#     height += 1
+#     blocks = blocks - (height +1)
+#
+# print("The height of the pyramid:", height)
 
 #First loop
 #blocks = 6
@@ -20,11 +20,13 @@ print("The height of the pyramid:", height)
 #blocks = 6 - (1+1) | blocks = 4
 
 #Second loop
-Height = 1+1=2
-Blocks = 4-(2+1)
+#Height = 1+1=2
+#Blocks = 4-(2+1)
 
 #Third loop
-Height = 2+1=3
-Blocks = 1-(3+1)=-3
+#Height = 2+1=3
+#Blocks = 1-(3+1)=-3
 
 #Then exits loop because blocks is < 0
+
+
