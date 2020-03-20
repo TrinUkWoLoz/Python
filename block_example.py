@@ -11,3 +11,20 @@ while blocks > 0:
     blocks = blocks - (height +1)
 
 print("The height of the pyramid:", height)
+
+#First loop
+#blocks = 6
+#height = 0
+#blocks is greater than 0
+#height = height + 1 | height = 0 + 1 | height = 1
+#blocks = 6 - (1+1) | blocks = 4
+
+#Second loop
+Height = 1+1=2
+Blocks = 4-(2+1)
+
+#Third loop
+Height = 2+1=3
+Blocks = 1-(3+1)=-3
+
+#Then exits loop because blocks is < 0

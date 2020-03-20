@@ -66,12 +66,17 @@ orange/yellow = string
 
 #OPERATORS#
 
-#Can simplify by adding op to left side of operator
+#Can simplify by adding op to left side of operator (augmented assignment)
 variable = variable op expression
 x = x * 2
 
 variable op= expression
 x *= 2
+
+#Both the below mean the same
+x += 2
+x = x + 2
+
 
 ############################
 
