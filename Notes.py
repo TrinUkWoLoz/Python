@@ -575,3 +575,46 @@ for digit in "0165031806510":
 
 #Note how the parentheses have been used to code the expressions - we put them there to improve readability.
 #We should add that none of these two-argument operators can be used in the abbreviated form known as op=. This exception is worth remembering.
+
+#Logical v single-bits
+# Logical operators take their arguments as a whole regardless of how many bits they contain.
+# The operators are aware only of the value: zero (when all the bits are reset) means False;
+# not zero (when at least one bit is set) means True.
+#
+# The result of their operations is one of these values: False or True.
+# This means that this snippet will assign the value True to the j variable if i is not zero;
+# otherwise, it will be False.
+#
+# i = 1
+# j = not not i
+
+#Bitwise Operators
+#However, there are four operators that allow you to manipulate single bits of data.
+#They are called bitwise operators.
+
+#They cover all the operations we mentioned before in the logical context,
+#and one additional operator. This is the xor (as in exclusive or) operator, and is denoted as ^ (caret).
+
+#Here are all of them:
+
+#   & (ampersand)   -     bitwise conjunction;
+#   | (bar)         -     bitwise disjunction;
+#   ~ (tilde)       -     bitwise negation;
+#   ^ (caret)       -     bitwise exclusive or (xor)
+
+#Bitwise operations (&, |, and ^)
+#   Arg A	Arg B	Arg B & Arg B	Arg A | Arg B	Arg A ^ Arg B
+#   0	    0	        0	            0	                0
+#   0	    1	        0	            1	                1
+#   1	    0	        0	            1	                1
+#   1	    1	        1	            1	                0
+
+#Bitwise operations (~)
+#   Arg	    ~Arg
+#   0	      1
+#   1	      0
+
+#   & requires exactly two 1s to provide 1 as the result;
+#   | requires at least one 1 to provide 1 as the result;
+#   ^ requires exactly one 1 to provide 1 as the result.
+
