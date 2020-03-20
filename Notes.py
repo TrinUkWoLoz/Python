@@ -8,7 +8,7 @@
 
 #Additions Cython (C python) Rython (Reduced - subset of python for self development) & Jython (Java python)
 
-#Interpreter language such as Java Perl & Python
+#Interpreter language such as Java Perl
 
 #Compiler language C & Go (good for fast mathemeatical calculations)
 
