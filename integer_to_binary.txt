@@ -4,7 +4,8 @@ Integer conversion to binary (example = 20 | 16+4=20 so.....)
         0   0  0  1 0 1 0 0  =  20 (integer value)
 
 
-BINARY
+BINARY(8 bits)
 20 = 00010100
 4 = 00000100
 1 = 00000001
+

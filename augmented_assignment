@@ -1,0 +1,15 @@
+#Augmented assignment#
+
+x += 1
+
+is the same as:
+
+x = x + 1
+
+its just abbreviated, just like:
+
+y %= 50
+
+is the same as
+
+y = y % 50

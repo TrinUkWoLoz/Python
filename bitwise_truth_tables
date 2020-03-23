@@ -1,0 +1,16 @@
+#   & (ampersand)   -     bitwise conjunction;
+#   | (bar)         -     bitwise disjunction;
+#   ~ (tilde)       -     bitwise negation;
+#   ^ (caret)       -     bitwise exclusive or (xor)
+
+#Bitwise operations (ampersand &, bar |, circumflex accent/caret ^)
+#   Arg A	Arg B	Arg B & Arg B	Arg A | Arg B	Arg A ^ Arg B
+#   0	    0	        0	            0	                0
+#   0	    1	        0	            1	                1
+#   1	    0	        0	            1	                1
+#   1	    1	        1	            1	                0
+
+#Bitwise operations (tilde ~)
+#   Arg	    ~Arg
+#   0	      1
+#   1	      0
