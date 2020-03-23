@@ -38,12 +38,12 @@
 x = 4
 y = 1
 
-a = x & y         #  = disjunction, of 4 and 2 = False
-b = x | y         #  = disjunction, of 4 or 2 = True
-c = ~x            #  = negation, 4 and 2 - falsified = False
-d = x ^ 5         #  = to the power of (4**5) = 1024
-e = x >> 2        #  = 4//2=2 2**2           = 4
-f = x << 2        #  = 2**2=4 4*4            = 16
+a = x & y         #  = 0    (calculate binary values and follow comparison rule 1+1 =1 and anything else =0)
+b = x | y         #  =
+c = ~x            #  = -5   (unary complement (flips binary 1s to 0s and 0s to 1s))
+d = x ^ 5         #  =
+e = x >> 2        #  = 1    (calculate binary value, shift right (2 places) and convert to integer)
+f = x << 2        #  = 16   (162**2=4 4*4)
 
 print(a, b, c, d, e, f)
 
