@@ -29,3 +29,22 @@
 #0-5 range | increments of 3 | prints just 0 and 3
 # for i in range(0, 6, 3):
 #     print(i)
+
+# var = 17
+# varRight = var >> 1
+# varLeft = var << 2
+# print(var, varLeft, varRight)
+
+x = 4
+y = 1
+
+a = x & y         #  = disjunction, of 4 and 2 = False
+b = x | y         #  = disjunction, of 4 or 2 = True
+c = ~x            #  = negation, 4 and 2 - falsified = False
+d = x ^ 5         #  = to the power of (4**5) = 1024
+e = x >> 2        #  = 4//2=2 2**2           = 4
+f = x << 2        #  = 2**2=4 4*4            = 16
+
+print(a, b, c, d, e, f)
+
+
