@@ -1,2 +1,2 @@
 # Python
-Study_Code_Notes
+Study scripts.... by the wizard himself :)
