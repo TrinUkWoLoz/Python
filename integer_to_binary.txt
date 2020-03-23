@@ -3,9 +3,21 @@ Integer conversion to binary (example = 20 | 16+4=20 so.....)
        128 64 32 16 8 4 2 1  =  2**7 2**6 2**5 **4 2**3 2**2 2**1 2**0
         0   0  0  1 0 1 0 0  =  20 (integer value)
 
-
 BINARY(8 bits)
 20 = 00010100
 4 = 00000100
 1 = 00000001
+
+#Manual calculation
+
+Integer   Divide by 2       Result      Remainder
+20              / 2            10           0
+10              / 2             5           0
+5               / 2             2           1
+2               / 2             1           0
+1               / 2             0           1
+
+Integer         = 20
+binary          = 010100
+8 bit binary    = 00010100
 
