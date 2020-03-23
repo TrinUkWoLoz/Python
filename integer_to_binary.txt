@@ -21,3 +21,13 @@ Integer         = 20
 binary          = 010100
 8 bit binary    = 00010100
 
+#Quick integer 16 conversion
+16  0
+8   0
+4   0
+2   0
+1   0
+1
+
+binary 16       = 100000
+8 bit binary    = 00100000
