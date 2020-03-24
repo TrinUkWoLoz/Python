@@ -35,16 +35,25 @@
 # varLeft = var << 2
 # print(var, varLeft, varRight)
 
-x = 4
-y = 1
+# x = 4
+# y = 1
+#
+# a = x & y         #  = 0    (calculate binary values and follow comparison rule 1+1 =1 and anything else =0)
+# b = x | y         #  = 5
+# c = ~x            #  = -5   (unary complement (flips binary 1s to 0s and 0s to 1s))
+# d = x ^ 5         #  = 1
+# e = x >> 2        #  = 1    (calculate binary value, shift right (2 places) and convert to integer)
+# f = x << 2        #  = 16   (162**2=4 4*4)
+#
+# print(a, b, c, d, e, f)
 
-a = x & y         #  = 0    (calculate binary values and follow comparison rule 1+1 =1 and anything else =0)
-b = x | y         #  =
-c = ~x            #  = -5   (unary complement (flips binary 1s to 0s and 0s to 1s))
-d = x ^ 5         #  =
-e = x >> 2        #  = 1    (calculate binary value, shift right (2 places) and convert to integer)
-f = x << 2        #  = 16   (162**2=4 4*4)
+#Next example
+# x = 1
+# y = 0
+#
+# z = ((x == y) and (x == y)) or not(x == y)
+# print(not(z))
 
-print(a, b, c, d, e, f)
+#z = False
 
 
