@@ -55,28 +55,49 @@
 # print(not(z))
 
 #z = False
+#
+# hatList = [1, 2, 3, 4, 5]  # This is an existing list of numbers hidden in the hat.
+#
+# # Step 1: write a line of code that prompts the user
+# # to replace the middle number with an integer number entered by the user.
+#
+# # Step 2: write a line of code here that removes the last element from the list.
+#
+# # Step 3: write a line of code here that prints the length of the existing list.
+#
+# print("This is the original list:", hatList)
+#
+# user_input = input("Please enter an integer to replace the middle number in the list:")
+# hatList[2] = user_input
+#
+# print("Result after swapping middle element for user input", hatList)
+#
+# del hatList[4]
+#
+# print("Result after 5th element removal", hatList)
+#
+# print("Number of elements:", (len(hatList)))
 
-hatList = [1, 2, 3, 4, 5]  # This is an existing list of numbers hidden in the hat.
+# numbers = [111, 7, 2, 1]
+# print(len(numbers))
+# print(numbers)
+#
+# ###
+#
+# numbers.append(4)
+#
+# print(len(numbers))
+# print(numbers)
 
-# Step 1: write a line of code that prompts the user
-# to replace the middle number with an integer number entered by the user.
+###
 
-# Step 2: write a line of code here that removes the last element from the list.
+myList = []        # creating an empty list
 
-# Step 3: write a line of code here that prints the length of the existing list.
+for i in range(5):
+    myList.append(i + 1)
 
-print("This is the original list:", hatList)
+print(myList)
 
-user_input = input("Please enter an integer to replace the middle number in the list:")
-hatList[2] = user_input
-
-print("Result after swapping middle element for user input", hatList)
-
-del hatList[4]
-
-print("Result after 5th element removal", hatList)
-
-print("Number of elements:", (len(hatList)))
 
 
 
