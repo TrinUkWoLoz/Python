@@ -31,3 +31,13 @@ binary          = 010100
 
 binary 16       = 100000
 8 bit binary    = 00100000
+
+#PYTHON CONVERSION TOOLS#
+
+#Convert integer to binary
+bin(<integer_value>)
+
+#Convert binary to integer
+int('<binary_value>', 2)
+
+
