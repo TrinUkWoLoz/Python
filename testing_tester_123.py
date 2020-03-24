@@ -91,13 +91,19 @@
 
 ###
 
-myList = []        # creating an empty list
+# myList = []        # creating an empty list
+#
+# for i in range(5):
+#     myList.append(i + 1)
+#
+# print(myList)
 
-for i in range(5):
-    myList.append(i + 1)
+myList = [10, 1, 8, 3, 5]
+total = 0
 
-print(myList)
+for i in myList:
+    total += i
 
-
+print("The total of the values in the list is:", total)
 
 
