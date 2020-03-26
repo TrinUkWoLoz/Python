@@ -16,3 +16,4 @@ print("\nMy new reversed list (thanks for loop):", myList)
 # we've swapped the ith element (from the beginning of the list) with the one with an index equal to (length - i - 1)
 # (from the end of the list); in our example, for i equal to 0 the (l - i - 1) gives 4; for i equal to 1, it gives 3
 # this is exactly what we needed
+
