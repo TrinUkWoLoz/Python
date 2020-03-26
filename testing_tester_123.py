@@ -122,25 +122,58 @@
 
 # I use for loop for append for more convenience
 # step 1
-beatles=[]
-startlist=["John Lennon","Paul McCartney","George Harrison"]
-templist=["Stu Sutcliffe","Pete Best"]
-print("Step 1:", beatles)
-# step 2
-for i in startlist:
-beatles.append(i)
-print("Step 2:", beatles)
-# step 3
-for i in templist:
-beatles.append(i)
-print("Step 3:", beatles)
-# step 4
-for i in range(2):
-del beatles[-1]
-print("Step 4:", beatles)
-# step 5
-beatles.insert(0,"Ringo Starr")
-print("Step 5:", beatles)
-# testing list legth
-print("The Fab", len(beatles))
+#
+# beatles=[]
+# startlist=["John Lennon","Paul McCartney","George Harrison"]
+# templist=["Stu Sutcliffe","Pete Best"]
+# print("Step 1:", beatles)
+# # step 2
+# for i in startlist:
+# beatles.append(i)
+# print("Step 2:", beatles)
+# # step 3
+# for i in templist:
+# beatles.append(i)
+# print("Step 3:", beatles)
+# # step 4
+# for i in range(2):
+# del beatles[-1]
+# print("Step 4:", beatles)
+# # step 5
+# beatles.insert(0,"Ringo Starr")
+# print("Step 5:", beatles)
+# # testing list legth
+# print("The Fab", len(beatles))
 
+#
+# myList = []
+# swapped = True
+# num = int(input("How many elements do you want to sort: "))
+#
+# for i in range(num):
+#     val = float(input("Enter a list element: "))
+#     myList.append(val)
+#
+# while swapped:
+#     swapped = False
+#     for i in range(len(myList) - 1):
+#         if myList[i] > myList[i + 1]:
+#             swapped = True
+#             myList[i], myList[i + 1] = myList[i + 1], myList[i]
+#
+# print("\nSorted:")
+# print(myList)
+
+# list1 = [1]
+# list2 = list1
+# list1[0] = 2
+# print(list2)
+
+#use my script:
+myList = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
+newlist=[]
+for i in range(0,len(myList)):
+    if myList[i] not in newlist:
+    newlist.append(myList[i])
+print("The list with unique elements only:")
+print(newlist)
