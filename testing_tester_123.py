@@ -170,10 +170,37 @@
 # print(list2)
 
 #use my script:
-myList = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
-newlist=[]
-for i in range(0,len(myList)):
-    if myList[i] not in newlist:
-    newlist.append(myList[i])
-print("The list with unique elements only:")
-print(newlist)
+# myList = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
+# newlist=[]
+# for i in range(0,len(myList)):
+#     if myList[i] not in newlist:
+#     newlist.append(myList[i])
+# print("The list with unique elements only:")
+# print(newlist)
+#
+# row = []
+#
+# for i in range(8):
+#     row.append(WHITE_PAWN)
+# # print(row)
+#
+# board = [[EMPTY for i in range(8)] for j in range(8)]
+# print(board)
+
+EMPTY = "-"
+ROOK = "ROOK"
+board = []
+
+#Mapping board using loop, range, variable and append
+for i in range(8):
+    row = [EMPTY for i in range(8)]
+    board.append(row)
+
+#Mapping all the rooks using indicies
+board[0][0] = ROOK
+board[0][7] = ROOK
+board[7][0] = ROOK
+board[7][7] = ROOK
+
+#Print result
+print(board)
