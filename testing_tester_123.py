@@ -186,21 +186,211 @@
 #
 # board = [[EMPTY for i in range(8)] for j in range(8)]
 # print(board)
+#
+# EMPTY = "-"
+# ROOK = "ROOK"
+# board = []
+#
+# #Mapping board using loop, range, variable and append
+# for i in range(8):
+#     row = [EMPTY for i in range(8)]
+#     board.append(row)
+#
+# #Mapping all the rooks using indicies
+# board[0][0] = ROOK
+# board[0][7] = ROOK
+# board[7][0] = ROOK
+# board[7][7] = ROOK
+#
+# #Print result
+# print(board)
 
-EMPTY = "-"
-ROOK = "ROOK"
-board = []
+#Q2 = [1, 1, 2]
+# vals = [0, 1, 2]
+# vals.insert(0, 1)
+# del vals[1]
+#
+# print(vals)
 
-#Mapping board using loop, range, variable and append
-for i in range(8):
-    row = [EMPTY for i in range(8)]
-    board.append(row)
+#03 ## (2)
+# for i in range(1):
+#     print("#")
+# else:
+#     print("#")
 
-#Mapping all the rooks using indicies
-board[0][0] = ROOK
-board[0][7] = ROOK
-board[7][0] = ROOK
-board[7][7] = ROOK
+#4 [3, 2, 1] (reversal)
+# lst1 = [1, 2, 3]
+# lst2 = []
+# for v in lst1:
+#     lst2.insert(0, v)
+# print(lst2)
 
-#Print result
-print(board)
+#5 * (once)
+# i = 0
+# while i <= 5 :
+#     i += 1
+#     if i % 2 == 0:
+#         break
+#     print("*")
+
+#6 [2]
+# lst = [1, 2, 3, 4]
+# print(lst[-3:-2]
+
+#7 6
+# t = [[3-i for i in range (3)] for j in range (3)]
+# s = 0
+# for i in range (3):
+#     s += t[i][i]
+# print(s)
+
+#8 runtime error
+# lst = [[0, 1, 2, 3] for i in range(2)]
+# print(lst[2][0])
+
+#9 nums and vals are the same length
+# nums = [1, 2, 3]
+# vals = nums
+# del vals[1:2]
+# print(vals)
+# print(nums)
+
+#10 reverses the list
+# vals = [0, 1, 2]
+# vals[0], vals[2] = vals[2], vals[0]
+# print(vals)
+
+#11 ** (twice)
+# i = 0
+# while i <= 3 :
+#     i += 2
+#     print("*")
+
+#12 2
+# a = 1
+# b = 0
+# c = a & b
+# d = a | b
+# e = a ^ b
+# print(c + d + e)
+
+#13 1
+# lst = [2, 1, -2]
+# print(lst[lst[-1]])
+
+#15 Nums is longer than vals
+# nums = [1, 2, 3]
+# vals = nums[-1:-2]
+# print(vals)
+# print(nums)
+
+#16 4
+# var = 1
+# while var < 10:
+#     print("#")
+#     var = var << 1
+
+#17 3
+# lst = [i for i in range(-1, 2)]
+# print(lst)
+
+#18 [1, 1, 1, 1, 2, 3]
+# lst = [1, 2, 3]
+# for v in range(len(lst)):
+#     lst.insert(1, lst[v])
+# print(lst)
+#
+# #19 think 1
+# var = 0
+# while var < 6:
+#     var += 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           }]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

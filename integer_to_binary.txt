@@ -41,3 +41,9 @@ bin(<integer_value>)
 int('<binary_value>', 2)
 
 
+1 = 0100
+0 = 0000
+
+& = 0
+| = 1
+^ = 1
