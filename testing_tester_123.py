@@ -309,7 +309,7 @@
 # # Then becomes print(lst[-2]) - print second to last element = 1
 # print(lst[lst[-1]])
 
-#15 Nums is longer than vals      ****STUCK*****
+#15 ANSWER = Nums is longer than vals      ****STUCK*****
 # nums = [1, 2, 3]
 # # vals = slice (first in slice is last element (3), first not included is 2nd to last (2) element)
 # # slice = [3, 1] = vals
@@ -360,4 +360,36 @@
 # s = 30 + 21 = 51
 # s = 51 + 12 = 63
 
+# def message():
+#     print("Enter a value: ")
+#
+# message()
+# a = int(input())
+#
+# message()
+# b = int(input())
+#
+# message()
+# c = int(input())
 
+# FOR IAIN
+# #7 ANSWER = 6 | Why?  |     ***STUCK***
+# t = [[3-i for i in range(3)] for j in range(3)]
+# s = 0
+# for i in range(3):
+#     s += t[i][i]
+# print(s)
+#
+# #15 ANSWER = Nums is longer than vals  | Why? |  ****STUCK*****
+# nums = [1, 2, 3]
+# vals = nums[-1:-2]
+# print(vals)
+# print(nums)
+
+# Shows variable is different to specified parameter
+def message(number):
+    print("Enter a number:", number)
+
+number = 1234
+message(1)
+print(number)
