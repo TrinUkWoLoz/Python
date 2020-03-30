@@ -205,15 +205,23 @@
 # #Print result
 # print(board)
 
+#########################################
+#                                       #
+#######Module 3 exam questions###########
+#            explained....              #
+#########################################
+
 #Q2 = [1, 1, 2]
 # vals = [0, 1, 2]
+# #vals = [1, 1, 1, 2]
 # vals.insert(0, 1)
+# #vals = [1, 1, 2]
 # del vals[1]
-#
 # print(vals)
 
 #03 ## (2)
 # for i in range(1):
+#     #One loop prints # next loop prints # (range 1 = 0,1 - 2 loops)
 #     print("#")
 # else:
 #     print("#")
@@ -222,12 +230,18 @@
 # lst1 = [1, 2, 3]
 # lst2 = []
 # for v in lst1:
+#     #for value in lst1 insert in lst2 into indicie 0 (first element)
+#     #first element (1) taken and added to lst2 = [1]
+#     #second element (2) taken and added to lst2 = [2, 1]
+#     #third element (3) taken and added to lst2 = [3, 2, 1]
 #     lst2.insert(0, v)
 # print(lst2)
 
 #5 * (once)
 # i = 0
-# while i <= 5 :
+# #Loop 1 = i = 0+1 | 1%2 = 0==0 = True | print *
+# #Loop 2 = i = 1+1 | 2%2 = 1==0 = False | break
+# while i <= 5:
 #     i += 1
 #     if i % 2 == 0:
 #         break
@@ -235,51 +249,70 @@
 
 #6 [2]
 # lst = [1, 2, 3, 4]
-# print(lst[-3:-2]
+# # -3 = 2 (2nd element) | -2 = 3 (third element)
+# # lst[first value included:first value not included] | lst[2:3]
+# # results in [2] being printed
+# print(lst[-3:-2])
 
-#7 6
-# t = [[3-i for i in range (3)] for j in range (3)]
+#7 6            ***STUCK***
+# t = [[3-i for i in range(3)] for j in range(3)]
 # s = 0
-# for i in range (3):
+# for i in range(3):
 #     s += t[i][i]
 # print(s)
 
 #8 runtime error
+# # Print function looking for 3rd element however there is only 2
 # lst = [[0, 1, 2, 3] for i in range(2)]
 # print(lst[2][0])
 
 #9 nums and vals are the same length
 # nums = [1, 2, 3]
+# # Copy contents of nums to new list named vals
 # vals = nums
+# # Delete slice (value 2) (starting at 2nd and ending at 2nd element) from both lists
 # del vals[1:2]
 # print(vals)
 # print(nums)
 
 #10 reverses the list
 # vals = [0, 1, 2]
+# # Swaps first and third element (which reverses the list)
 # vals[0], vals[2] = vals[2], vals[0]
 # print(vals)
 
 #11 ** (twice)
 # i = 0
-# while i <= 3 :
+# while i <= 3:
+#     # Loop 1 | i = 0+2 | prints *
+#     # Loop 2 | i = 1+2 | prints another *
+#     # Loop 3 | i = 2+2 | nothing printed
 #     i += 2
 #     print("*")
 
 #12 2
 # a = 1
 # b = 0
+# # Change to binary 1 = 0010 and 0 = 0000
+# # & = two 1s create 1 else 0 so answer = 0
+# # | = two 0s create 0 else 1 so answer = 1
+# # ^ = 0 + 1 or 1 + 0 create 1 else 0 so answer = 1
 # c = a & b
 # d = a | b
 # e = a ^ b
+# # print 0 + 1 + 1 = 2
 # print(c + d + e)
 
 #13 1
 # lst = [2, 1, -2]
+# # Inner square brackets pulls last element = -2
+# # Then becomes print(lst[-2]) - print second to last element = 1
 # print(lst[lst[-1]])
 
-#15 Nums is longer than vals
+#15 Nums is longer than vals      ****STUCK*****
 # nums = [1, 2, 3]
+# # vals = slice (first in slice is last element (3), first not included is 2nd to last (2) element)
+# # slice = [3, 1] = vals
 # vals = nums[-1:-2]
 # print(vals)
 # print(nums)
@@ -288,109 +321,43 @@
 # var = 1
 # while var < 10:
 #     print("#")
+#     # Loop 1 = 0 << 1 = 2
+#     # Loop 2 = 1 << 1 = 4
+#     # Loop 3 = 4 << 1 = 8
+#     # Loop 4 = 8 << 1 = 16
+#     # Prints # 4 times then var is greater than 10 so loop stops
 #     var = var << 1
 
 #17 3
+# # Range [-1, 0, 1] = Number of values in range = 3
 # lst = [i for i in range(-1, 2)]
 # print(lst)
 
 #18 [1, 1, 1, 1, 2, 3]
 # lst = [1, 2, 3]
+# # For v in range of 3
 # for v in range(len(lst)):
+#     # Inserts a 1 three times in element 1 place
 #     lst.insert(1, lst[v])
 # print(lst)
-#
-# #19 think 1
-# var = 0
-# while var < 6:
-#     var += 1
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-           }]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+###  WORKING ONN QUESTION THAT IM STUCK ON SUCKAH  ###
+# t = [[3-i for i in range(3)] for j in range(3)]
+# s = 0
+# for i in range(3):
+#     s += t[i][i]
+# print(s)
+# t = [[3-i for i in range(3)] for j in range(3)]
+# Loop 1 = 3-0 = 3
+# Loop 2 = 3-1 = 2
+# Loop 3 = 3-2 = 1
+# for j in range(3)
+# Loop 1 = 0
+# Loop 2 = 1
+# Loop 3 = 2
+# s = 0 + 30 = 30
+# s = 30 + 21 = 51
+# s = 51 + 12 = 63
 
 
