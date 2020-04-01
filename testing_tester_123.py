@@ -394,8 +394,11 @@
 # message(1)
 # print(number)
 
-def myFunction(a, b, c):
-    print(a, b, c)
+# def myFunction(a, b, c):
+#     print(a, b, c)
+#
+# myFunction(1, 2, 3)
 
-myFunction(1, 2, 3)
-
+def sum(a, b, c):
+    print(a, "+", b, "+", c, "=", a + b + c)
+sum(3, c = 1, b = 2)

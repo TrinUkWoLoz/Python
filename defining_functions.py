@@ -33,6 +33,22 @@ introduction(lastName = "Skywalker", firstName = "Luke")
 
 def sum(a, b, c):
     print(a, "+", b, "+", c, "=", a + b + c)
+sum(3, c = 1, b = 2)
+
+###############################
+
+# Specifying a default parameter (Smith)
+
+def introduction(firstName, lastName="Smith"):
+    print("Hello, my name is", firstName, lastName)
+
+# call the function here
+introduction(firstName="William")
+
+###############################
+
+
+
 
 
 
