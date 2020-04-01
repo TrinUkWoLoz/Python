@@ -387,9 +387,15 @@
 # print(nums)
 
 # Shows variable is different to specified parameter
-def message(number):
-    print("Enter a number:", number)
+# def message(number):
+#     print("Enter a number:", number)
+#
+# number = 1234
+# message(1)
+# print(number)
 
-number = 1234
-message(1)
-print(number)
+def myFunction(a, b, c):
+    print(a, b, c)
+
+myFunction(1, 2, 3)
+
