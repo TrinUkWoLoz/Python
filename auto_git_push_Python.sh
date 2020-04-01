@@ -6,9 +6,9 @@
 ##This clause is for sudo push
 #sudo git add --all && sudo git commit -m "Auto add, commit and push script" && sudo git push
 
-
 git add --all && git commit -m "Auto add, commit and push script" && git push
-if [ "$?" -eq "0" ]
+#If exit code returns '1' (operation not permitted) then...
+if [ "$?" -eq "1" ]
 then
   echo "Sudoless command successful"
 else
