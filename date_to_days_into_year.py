@@ -38,5 +38,5 @@ def dayOfYear(year, month, day):
 	sum_of_days = sum_of_days + day
 	return sum_of_days
 
-print(dayOfYear(2020, 4, 2))
+print(dayOfYear(2020, 4, 7))
 
