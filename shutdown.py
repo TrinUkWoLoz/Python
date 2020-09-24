@@ -7,5 +7,5 @@ if shutdown == 'no':
     exit()
 else:
 #    os.system("shutdown /s /t 1")
-    os.system("shutdown /t 1")
+    os.system("shutdown -h now")
 
