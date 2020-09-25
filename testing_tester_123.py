@@ -405,7 +405,7 @@
 
 
 
-
+"""
 def isYearLeap(year):
     return (((year % 4 == 0) and (year % 100 != 0)) or (year % 400 == 0));
 
@@ -419,7 +419,7 @@ for i in range(len(testData)):
 		print("OK")
 	else:
 		print("Failed")
-		
+"""
 
 #1900               ((True and False) or False)
 #                        False or Flase
@@ -437,3 +437,6 @@ for i in range(len(testData)):
 #                          False or False
 #                               False
 
+myComplex = 3 + 4j
+print("This is an example of the real value (just value no j) =", myComplex.real)
+print("This is an example of the imaginary value (value with j) =", myComplex.imag)
