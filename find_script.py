@@ -1,14 +1,5 @@
 #!/usr/bin/python3.8
 
-#List
-#Scenario = find . −name "*.txt" −print
-#import of module (argparse)
-#setting of parser variable to module.class(ArgumentParser()
-#positional parameter for directory to search (/usr/local/bin)
-#positional parameter for type of file (*.txt)
-#positional parameter to store each found file (to later print)
-#set args variable using parser.parser_args()
-#print result (args)
 
 from pathlib import Path
 import sys
@@ -43,13 +34,15 @@ def find_files(args):
         print("You need either --name or --type")
         sys.exit(1)
 
-    def parse_args():
-        parser = argparse.ArgumentParser()
 
-        parser.add_argument('start', type=str, nargs=1)
-        parser.add_argument('--name', type=str)
-        parser.add_argument('--type', type=str)
+def parse_args():
+    parser = argparse.ArgumentParser()
 
-        return parser.parse_args()
+    parser.add_argument('start', type=str, nargs=1)
+    parser.add_argument('--name', type=str)
+    parser.add_argument('--type', type=str)
 
-    find_files(parse_args())
+    return parser.parse_args()
+
+
+find_files(parse_args())
