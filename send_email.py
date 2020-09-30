@@ -3,12 +3,15 @@
 import smtplib
 import getpass
 
+gmail_address = input("Type senders gmail address here: ")
 print("Type your gmail password below")
 password = getpass.getpass()
+recipient = input("Type recipients email address here: ")
+body_text = input("Type text content here: ")
 server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-server.login("triniwizard@gmail.com", password)
+server.login(gmail_address, password)
 server.sendmail(
-  "triniwizard@gmail.com",
-  "triniwizard@gmail.com",
-  "This message is from a wizards python script - testing tester 123")
+  gmail_address,
+  recipient,
+  body_text)
 server.quit()
