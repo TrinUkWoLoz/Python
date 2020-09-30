@@ -10,8 +10,5 @@ recipient = input("Type recipients email address here: ")
 body_text = input("Type text content here: ")
 server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
 server.login(gmail_address, password)
-server.sendmail(
-  gmail_address,
-  recipient,
-  body_text)
+server.sendmail(gmail_address, recipient, body_text)
 server.quit()
