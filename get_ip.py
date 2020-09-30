@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+
+#Script designed to take a URL as a positional argument and return associated IP address
+#e.g ./get_ip -h    =    help message
+#e.g ./get_ip google.com    =   relays googles IP
+
 import argparse
 import socket
 
