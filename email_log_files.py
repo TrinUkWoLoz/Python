@@ -18,22 +18,23 @@ fromaddr = 'triniwizard@gmail.com'  # must be a vaild 'from' address in your GAp
 toaddr = 'ljcharding@hotmail.co.uk'
 replyto = fromaddr  # unless you want a different reply-to
 
-msgsubject = 'Latest log files from Asus laptop Ubuntu OS'
+msgsubject = 'Latest log files from laptop Ubuntu OS'
 
-htmlmsgtext = """<h2>This is my message body in HTML...WOW!!!!!</h2>
+htmlmsgtext = """<h2>See list items below bro!!!!!</h2>
                     <p>\
-                     Hey, Hey, Ho, Ho, got a paragraph here. A lovely paragraph it is.\
-                     You've never seen a better paragraph than this.\
-                     I make some of the best paragraphs you have ever seen.\
-                     Hey, Hey, Ho, Ho, got a paragraph here. A lovely paragraph it is.\
-                     You've never seen a better paragraph than this.\
-                     I make some of the best paragraphs you have ever seen.\                 
+                     A\
+                     creation\
+                     from\
+                     the masterful\
+                     wizard\
+                     of loz...\                 
                      </p>
                     <ul>
-                        <li>This is a list item</li>
-                        <li>This is another list item</li>
-                        <li>And yet another list item, pretty big list</li>
-                        <li>OMG this is a long list!</li>
+                        <li>Log files:</li>
+                        <li>auth</li>
+                        <li>boot</li>
+                        <li>fail2ban</li>
+                        <li>sys</li>
                     </ul>
                     <p><strong>Here are your attachments:</strong></p><br />"""
 
